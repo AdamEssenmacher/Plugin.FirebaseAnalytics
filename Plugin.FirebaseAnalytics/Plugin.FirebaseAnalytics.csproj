@@ -47,6 +47,6 @@
     </ItemGroup>
     <ItemGroup Condition=" $(TargetFramework.StartsWith('Xamarin.iOS')) ">
         <Compile Include="iOS\**\*.cs" />
-        <PackageReference Include="Xamarin.Firebase.iOS.Analytics" Version="6.9.0" />
+        <PackageReference Include="Scavos.Firebase.iOS.Analytics" Version="10.7.0.1" />
     </ItemGroup>
 </Project>
