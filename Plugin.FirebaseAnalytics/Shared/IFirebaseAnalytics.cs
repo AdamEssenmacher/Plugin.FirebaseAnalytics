@@ -8,7 +8,6 @@ namespace Plugin.FirebaseAnalytics
         Task<string> GetAppInstanceIdAsync();
         void LogEvent(string name, params Parameter[] parameters);
         void LogEvent(string name, IDictionary<string, object>? parameters);
-        void SetCurrentScreen(string? screenName, string? screenClass);
         void SetUserId(string? userId);
         void SetUserProperty(string name, string? value);
         void ResetAnalyticsData();

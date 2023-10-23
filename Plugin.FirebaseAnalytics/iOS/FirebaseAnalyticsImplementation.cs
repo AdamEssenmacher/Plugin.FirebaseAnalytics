@@ -41,11 +41,6 @@ namespace Plugin.FirebaseAnalytics
             Analytics.LogEvent(name, dict);
         }
 
-        public void SetCurrentScreen(string? screenName, string? screenClass)
-        {
-            Analytics.SetScreenNameAndClass(screenName, screenClass);
-        }
-
         public void SetUserId(string? userId)
         {
             Analytics.SetUserId(userId);
